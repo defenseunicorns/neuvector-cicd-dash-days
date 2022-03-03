@@ -1,0 +1,23 @@
+apiVersion: v1
+data:
+    .dockerconfigjson: ENC[AES256_GCM,data:CQ7JxkfobZwQmpcTTOdEYqAr0j4/f+Ukxv+jbFtl0q8eaGJsqrbyZ7R2k/CIkRdtx2LXhYbe+LZkwSzjOseocCvKYZ4eBrQ7DPa7ktcosXQcvcWPUqn6ufGg2LXa2X1J/+tRV7zGgZzMTp3XwgtpGlH8SAhAVaSDAJYRnYcab/pUsvGgzxQXf3k5Ehotxtzb++vQ1uNW4R6me+erxxRGvZmusQEZjvvGV2Q1fmX8UpMeQSDJRYcZCaiZ8+m89JPIHOidcsE+7f3HkRVXxgHwdhI05kA/bs+uYBDLAxE60f+dsm7zMtKx10Z28Y3VBz11gXDYJDIrQm9qmKVUMZ8QlFmM8fqWDIM2HQq1W2p4rUqg401XKu049gyr41wyX7En48Is5DCA5T8txJ/bdGlA6Ciop7xwL+GHpCMULg==,iv:ByVN1LoiBInNKk6h0lA7nVEUhBVdXtLtZtUNUlYn+j0=,tag:uylHB4jyTyLFFHl/UFLmFw==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: private-registry
+type: kubernetes.io/dockerconfigjson
+sops:
+    kms:
+        - arn: arn:aws:kms:us-east-1:950698127059:key/a2033cc0-fa97-41ea-9f33-d03266745335
+          created_at: "2022-03-03T17:43:12Z"
+          enc: AQICAHgBzAXGSUsBPPez012gkh0aDCM5Ggp5aDIfr3StC9gSQAHqr2LSp4S9l09z4fmTXPVIAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMXe/J7s9iCh17VmKwAgEQgDsZiovp0d4SWh5XBfa1WNqszgFumTkuOppjfZ6+WCB1bj9R6Ej09nCnf64OrT3dKVGBAIpNZsR67bN/iQ==
+          aws_profile: ""
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2022-03-03T17:43:12Z"
+    mac: ENC[AES256_GCM,data:2Cj08c1aihKWaWQFKkj2fc5b5F8vL0J/DhuGDqCH+ao8wMAVg/TyBDCUg3oXQnSesNXDGzIKXNzNpRMbH4g3Zmc+Tf9sZTvmiGmyctk8eRijBGnSCis1DW6XRXso5pf5ejlExdkaSia85R7am8MXvnncnkNtHaljLd6/Ppitm/8=,iv:5D2MzZ8U/QIjfiPEu5pch46q21B5txcMZrBkPH38RvI=,tag:QFTIno/71+1XvL4f1q8fIw==,type:str]
+    pgp: []
+    encrypted_regex: ^(data|stringData)$
+    version: 3.7.0
