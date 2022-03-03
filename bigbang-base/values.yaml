@@ -42,4 +42,6 @@ eckoperator:
 addons:
   gitlab:
     enabled: true
+  gitlabRunner:
+    enabled: true
     
