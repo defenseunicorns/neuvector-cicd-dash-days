@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: flux-system
+  namespace: flux-system
+type: Opaque
+data:
+  identity: L1VzZXJzL2dhdmluc2NhbGxvbi8uc3NoL2lkX3JzYQo=
+  identity.pub: L1VzZXJzL2dhdmluc2NhbGxvbi8uc3NoL2lkX3JzYS5wdWIK
+  known_hosts: L1VzZXJzL2dhdmluc2NhbGxvbi8uc3NoL2tub3duX2hvc3RzCg==
