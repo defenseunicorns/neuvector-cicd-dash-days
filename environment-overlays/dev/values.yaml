@@ -7,3 +7,10 @@ flux:
 
 jaeger:
   enabled: true
+
+gitlab:
+    git: 
+      tag: "5.8.2-bb.0"
+    hostnames:
+      gitlab: code.dash2.bigbang.dev
+      registry: gitlab-registry.dash2.bigbang.dev
