@@ -3,6 +3,7 @@ resources:
   - ../../apps/pod-info
   - flux-system
   - secrets/certmanager-secret.enc.yaml
+  - secrets/flux-system-secret.enc.yaml
 
 configMapGenerator:
   - name: environment
